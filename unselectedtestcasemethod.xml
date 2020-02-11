@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name=" execution">
+  <test name="execution for m">
+  
+  <classes>
+  <class name="Ademo.Selectedtestcaseexecution">
+  <methods>
+  <exclude name="testcase1"></exclude>
+  <exclude name="testcase2"></exclude>
+  </methods>
+  </class>
+   <class name="Ademo.Unseletedtestcases">
+   <methods>
+   <include name="testcase1"></include>
+   <include name="testcase2"></include>
+   </methods>
+   </class>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
