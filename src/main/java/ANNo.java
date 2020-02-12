@@ -20,7 +20,7 @@ public class ANNo {
 		System.out.println("launch browser");
 	}
 	@BeforeClass
-	public void login (){
+	public void login1 (){
 		System.out.println("login to app");
 	}
 	
