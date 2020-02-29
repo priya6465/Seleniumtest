@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class ANNo {
 	@BeforeSuite
 	public void setup(){
-		System. out.println("setup for chrom");
+		System. out.println("setup for chrome");
 	}
 	@BeforeTest
 	public void launchbrowser(){
