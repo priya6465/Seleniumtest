@@ -24,7 +24,7 @@ public class annotationdemo {
 	} 
 	@Test
 	public void ooglelogotest(){
-		System.out.println("2test");
+		System.out.println("3test");
 	}
 	@AfterMethod
 	public void teardown(){
